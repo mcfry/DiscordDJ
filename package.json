@@ -1,0 +1,26 @@
+{
+  "name": "discord_dj",
+  "version": "1.0.0",
+  "description": "Music bot for discord.",
+  "main": "discord_dj.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "please",
+    "dont",
+    "stop",
+    "the",
+    "music"
+  ],
+  "author": "dj deejay",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^10.0.1",
+    "node-gyp": "^3.4.0",
+    "node-opus": "^0.2.4",
+    "opusscript": "0.0.1",
+    "requestify": "^0.2.5",
+    "ytdl-core": "^0.7.19"
+  }
+}
