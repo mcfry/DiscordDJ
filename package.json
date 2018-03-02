@@ -17,10 +17,10 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^10.0.1",
-    "node-gyp": "^3.4.0",
-    "node-opus": "^0.2.4",
+    "node-gyp": "^3.6.2",
+    "node-opus": "^0.2.7",
     "opusscript": "0.0.1",
     "requestify": "^0.2.5",
-    "ytdl-core": "^0.7.19"
+    "ytdl-core": "^0.7.24"
   }
 }

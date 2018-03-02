@@ -1,6 +1,6 @@
 module.exports = {
 	key: function() {
 		// Your api key goes here
-		return "API_KEY_HERE";
+		return "your_youtube_api_key_here";
 	}
 };

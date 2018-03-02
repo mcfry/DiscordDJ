@@ -2,9 +2,9 @@ var Discord = require("discord.js");
 var ytdl = require('ytdl-core');
 var fs = require('fs');
 var requestify = require('requestify');
-var config = require()
+var config = require('./config.js');
 
-var API_KEY = config.key;
+var API_KEY = config.key();
 
 var bot = new Discord.Client();
 
@@ -545,4 +545,4 @@ var badCheck = function(str) {
 	return str.toString().match(/ *r *e *b *e *c *c *a| *b *l *a *c *k| *f *r *i *d *a *y| *b *l *a *k| *f *r *i *d *e *y/i);
 }
 
-bot.login("MjUyOTQ3NDQzNjY1MjA3Mjk3.Cx5XNw.yDWlP3QBeP_Y9AZUcpLqduQZ3II");
+bot.login("your bot token here");
